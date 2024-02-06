@@ -1,0 +1,389 @@
+/* BODY */
+body {
+  font-family: "DM Sans", sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding-right: 0;
+  height: 100vh;
+  background-color: black;
+  background-image: url(./01-Mountain.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+/* NAVBAR */
+
+nav {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+
+li {
+  list-style: none;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: white;
+  font-size: 1rem;
+  padding: 0.5rem;
+  display: flex;
+  gap: 2rem;
+  margin-right: 2rem;
+}
+
+a:hover {
+  color: rgba(250, 196, 162, 255);
+}
+
+header {
+  position: relative;
+}
+
+.navbar {
+  width: 100%;
+  height: 60px;
+  margin: 0% auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+  text-shadow: 1.95px 1.95px 2.6px rgb(0, 0, 0, 0.15);
+  box-shadow: rgba(0, 0, 0, 1) 0px 1px 6px;
+  background-color: rgb(255, 255, 255, 0.1);
+}
+
+.navbar .logo a {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-left: 2rem;
+}
+
+.links {
+  display: flex;
+  gap: 2rem;
+}
+
+.logo {
+  text-shadow: 1.95px 1.95px 2.6px rgb(0, 0, 0, 0.5);
+}
+
+/* HOME */
+
+.home {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 7rem;
+}
+
+.img-me {
+  height: 25rem;
+  width: auto;
+  border-radius: 1rem;
+  box-shadow: rgba(0, 0, 0, 1) 0px 1px 6px;
+}
+
+.welcome-me {
+  float: left;
+  color: white;
+  text-shadow: 1.95px 1.95px 2.6px rgb(0, 0, 0, 1);
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.welcome-student {
+  font-size: 2.5rem;
+}
+
+/* ABOUTME */
+
+#aboutme {
+  display: flex;
+  padding: 0;
+  margin-top: 20rem;
+  justify-content: space-evenly;
+  text-shadow: 1.95px 1.95px 2.6px rgb(0, 0, 0, 1);
+  color: white;
+  font-size: 2rem;
+}
+
+.aboutme {
+  display: flex;
+  padding: 2rem;
+  justify-content: space-evenly;
+}
+
+.aboutme h2 {
+  all: unset;
+  font-size: 2rem;
+  font-weight: bold;
+  text-shadow: 1.95px 1.95px 2.6px rgb(0, 0, 0, 1);
+  color: white;
+}
+
+.card-01 {
+  width: 30rem;
+  height: auto;
+  border-radius: 1rem;
+  padding: 1.5rem;
+  box-shadow: rgba(0, 0, 0, 1) 0px 1px 6px;
+  background-color: rgb(255, 255, 255, 0.1);
+}
+
+.card-01 p,
+li {
+  font-size: 1.5rem;
+  text-shadow: 1.95px 1.95px 2.6px rgb(0, 0, 0, 1);
+  color: white;
+}
+
+/* PROJECTS */
+
+#projects {
+  display: flex;
+  padding: 0;
+  margin-top: 15rem;
+  justify-content: space-evenly;
+  text-shadow: 1.95px 1.95px 2.6px rgb(0, 0, 0, 1);
+  color: white;
+  font-size: 2rem;
+}
+
+.projects {
+  display: flex;
+  padding: 0;
+  margin: 2rem;
+  justify-content: space-evenly;
+}
+
+.card-05 img {
+  height: 20rem;
+  width: 35rem;
+  border-radius: 1rem;
+  box-shadow: rgba(0, 0, 0, 1) 0px 1px 6px;
+  object-fit: cover;
+}
+
+/* Something Personal - Origin*/
+
+#personal {
+  display: flex;
+  padding: 0;
+  margin-top: 15rem;
+  justify-content: space-evenly;
+  text-shadow: 1.95px 1.95px 2.6px rgb(0, 0, 0, 1);
+  color: white;
+  font-size: 2rem;
+}
+
+#origin {
+  display: flex;
+  padding: 0;
+  margin-top: 1rem;
+  justify-content: space-evenly;
+  text-shadow: 1.95px 1.95px 2.6px rgb(0, 0, 0, 1);
+  color: white;
+  font-size: 2rem;
+}
+
+.personal-content {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  color: white;
+}
+
+.origin {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+}
+.card-02 {
+  height: auto;
+  width: 33rem;
+  border-radius: 8px;
+  overflow: hidden;
+  margin: 20px;
+  box-shadow: rgba(0, 0, 0, 1) 0px 1px 6px;
+  background-color: rgb(255, 255, 255, 0.1);
+}
+
+.card-02 img {
+  width: 100%;
+  height: auto;
+}
+
+.card-content {
+  padding: 16px;
+}
+
+.card-content a {
+  font-size: 2rem;
+  text-shadow: 1.95px 1.95px 2.6px rgb(0, 0, 0, 1);
+  text-decoration: none;
+  color: white;
+  font-size: 2rem;
+  padding: 0.5rem;
+  gap: 2rem;
+}
+
+a:hover {
+  color: orange;
+}
+
+.card-content p {
+  font-size: 1.5rem;
+  text-shadow: 1.95px 1.95px 2.6px rgb(0, 0, 0, 1);
+}
+
+.card-content-h2 {
+  margin-top: 4rem;
+}
+
+/* Something Personal - Places */
+
+#places {
+  display: flex;
+  padding: 0;
+  margin-top: 15rem;
+  justify-content: space-evenly;
+  text-shadow: 1.95px 1.95px 2.6px rgb(0, 0, 0, 1);
+  color: white;
+  font-size: 2rem;
+}
+
+.fav-content {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  color: white;
+}
+
+.places {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+.card-03 {
+  height: auto;
+  width: 20rem;
+  border-radius: 8px;
+  overflow: hidden;
+  margin: 2.5rem;
+  box-shadow: rgba(0, 0, 0, 1) 0px 1px 6px;
+  background-color: rgb(255, 255, 255, 0.1);
+}
+
+.card-03 img {
+  width: 100%;
+  height: auto;
+}
+
+.fav-content {
+  padding: 16px;
+}
+
+.fav-content a {
+  font-size: 1.5rem;
+  text-shadow: 1.95px 1.95px 2.6px rgb(0, 0, 0, 1);
+  text-decoration: none;
+  color: white;
+  padding: 0.5rem;
+  gap: 2rem;
+}
+
+a:hover {
+  color: rgba(250, 196, 162, 255);
+}
+
+.fav-content p,
+h2 {
+  font-size: 1.5rem;
+  text-shadow: 1.95px 1.95px 2.6px rgb(0, 0, 0, 1);
+}
+
+/* Hobbies */
+
+#hobbies {
+  display: flex;
+  padding: 0;
+  margin-top: 15rem;
+  justify-content: space-evenly;
+  text-shadow: 1.95px 1.95px 2.6px rgb(0, 0, 0, 1);
+  color: white;
+  font-size: 2rem;
+}
+
+.hob-content {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  color: white;
+}
+
+.hobbies {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+}
+.card-04 {
+  height: 20rem;
+  width: 40rem;
+  border-radius: 8px;
+  overflow: hidden;
+  margin: 2rem;
+  box-shadow: rgba(0, 0, 0, 1) 0px 1px 6px;
+  background-color: rgb(255, 255, 255, 0.1);
+  float: left;
+}
+
+.card-04 img {
+  width: auto;
+  height: 100%;
+  float: left;
+  margin-right: 1.5rem;
+}
+
+.hob-content {
+  padding: 16px;
+}
+
+.hob-content a {
+  font-size: 1.5rem;
+  text-shadow: 1.95px 1.95px 2.6px rgb(0, 0, 0, 1);
+  text-decoration: none;
+  color: white;
+  padding: 1.5rem;
+  gap: 2rem;
+}
+
+a:hover {
+  color: orange;
+}
+
+.hob-content p,
+h2 {
+  font-size: 1.5rem;
+  text-shadow: 1.95px 1.95px 2.6px rgb(0, 0, 0, 1);
+}
+
+/* Spotify */
+
+.spotify {
+  opacity: 90%;
+  display: flex;
+  justify-content: center;
+  margin-top: 10rem;
+}
+
+/* GITHUB */
+/* IMPRESSUM */
